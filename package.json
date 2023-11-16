@@ -8,8 +8,9 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "vite build && gh-pages -d dist"
   },
+  "homepage": "https://elamcano.github.io/contador-chakraUI/",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
