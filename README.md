@@ -1,8 +1,19 @@
-# React + Vite
+# MyApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![cover](/public/coverContador.png)
 
-Currently, two official plugins are available:
+Puedes acceder al sitio deployado en el siguiente: [Link](https://elamcano.github.io/contador-chakraUI/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Autor
+
+- [Elam Cano](https://www.linkedin.com/in/elam-cano-bb0419239/)
+
+## Tecnologías utilizadas
+
+**Client**: ViteJS, ReactJS, Chakra UI
+
+---
+
+## Detalle de Presentación
+
+Contador realizado con Chakra UI y React con diseño responsive y deployado con Github Pages.

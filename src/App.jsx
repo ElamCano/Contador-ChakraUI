@@ -1,5 +1,5 @@
 import "./App.css";
-import CounterCard from "./components/CounterCard";
+import ContadorResponsive from "./components/ContadorResponsive";
 import { Flex } from "@chakra-ui/react";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       bg="#18171c"
       fontFamily="Quantico"
     >
-      <CounterCard />
+      <ContadorResponsive />
     </Flex>
   );
 }

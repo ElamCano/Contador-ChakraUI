@@ -30,7 +30,23 @@ export default function CounterCard() {
     setCounter(0);
   };
   return (
-    <Card align="center" width={400} height={300} borderRadius="xl" maxW="md">
+    <Card
+      align="center"
+      width="60%"
+      height={300}
+      borderRadius="xl"
+      maxW="md"
+      css={{
+        "@media screen and (max-width: 700px)": {
+          width: "90%",
+          height: "350px",
+        },
+        "@media screen and (min-width: 701px and max-width: 1024px)": {
+          width: "600px",
+          height: "800px",
+        },
+      }}
+    >
       <CardHeader>
         <Heading size="xl" color="#595959" fontFamily="Quantico">
           Contador
@@ -56,7 +72,11 @@ export default function CounterCard() {
             onClose={onClose}
           >
             <AlertDialogOverlay>
-              <AlertDialogContent fontFamily="Quantico">
+              <AlertDialogContent
+                fontFamily="Quantico"
+                pos="absolute"
+                top="25%"
+              >
                 <AlertDialogHeader fontSize="lg" fontWeight="bold">
                   Reset
                 </AlertDialogHeader>
